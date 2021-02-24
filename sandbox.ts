@@ -1,19 +1,41 @@
-let character = 'hehe'
-let age =30;
-let isBlackBelt = false;
+//array
+let names = ['luigi', 'mario', 'yoshi']
 
-// character = 20;
-character ='luigi'
-// age ='yoshi'
-age = 50
 
-// isBlackBelt='yes'
-isBlackBelt = true
+names.push('toad')
+// name.push(3);
 
-const circ = (diameter :number) => { 
-  return diameter * Math.PI;
+// names[0]=3
+
+
+let number = [10, 12, 24]
+number.push(2)
+
+
+
+let mix = ['ken', 4, 'chun-li', 123];
+mix.push('ryo')
+mix.push(4)
+
+mix[0] = 2;
+mix[2] = 3
+
+//object
+let ninja = {
+  name: 'mario',
+  belt: 'black',
+  age:30
 }
-// console.log(circ('htht'));
-console.log(circ(12));
 
+ninja.age = 40
+ninja.name = 'ryo'
+// ninja.age='30
+// ninja.skills = ['fighting','asd']
 
+// ninja='23'
+// ninja = {
+//   name: 'ad',
+//   belt: 'blsdsack',
+//   age: 123
+//   skills=[]
+// }
